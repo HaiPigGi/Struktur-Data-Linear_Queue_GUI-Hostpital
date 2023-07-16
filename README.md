@@ -66,6 +66,6 @@ Kami sangat menghargai kontribusi Anda!
 
 ## Kontak
 
-Jika Anda memiliki pertanyaan atau ingin berdiskusi lebih lanjut tentang proyek ini, silakan hubungi kami melalui email: [email protected]
+Jika Anda memiliki pertanyaan atau ingin berdiskusi lebih lanjut tentang proyek ini, silakan hubungi kami melalui email: [leonardobryan32@gmail.com]
 
 Terima kasih telah menggunakan Struktur-Data-Linear_Queue_GUI-Hostpital!
