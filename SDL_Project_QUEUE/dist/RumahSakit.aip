@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="20.2" version="20.2" Modules="professional" RootPath="." Language="en" Id="{383FC165-8B3F-407D-9E7C-933E471816F5}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;MsiDriverPackagesComponent;UserAccountsComponent;ScheduledTasksComponent;SqlConnectionComponent;AutorunComponent;FirewallExceptionComponent;GameUxComponent;MsiDirectEditorComponent;SharePointSlnComponent;SilverlightSlnComponent;MultipleInstancesComponent;SccmComponent;ActSyncAppComponent;CPLAppletComponent;FixupComponent;MsiXDiffComponent;MsixManifestEditorComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_COLOR_DISABLED_TEXT" Value="3026478" MultiBuildValue="DefaultBuild:15461355" MsiKey="AI_COLOR_DISABLED_TEXT"/>
+    <ROW Property="AI_CONTROL_VISUAL_STYLE" Value="2960685;4276545;6776679;16176031" MultiBuildValue="DefaultBuild:16777215;16312552;12486056;9914981" MsiKey="AI_CONTROL_VISUAL_STYLE"/>
+    <ROW Property="AI_CONTROL_VISUAL_STYLE_EX" Value="1513239;3026478;3026478" MultiBuildValue="DefaultBuild:16514043;15461355;15461355" MsiKey="AI_CONTROL_VISUAL_STYLE_EX"/>
+    <ROW Property="AI_CONTROL_VISUAL_STYLE_FLAT" MultiBuildValue="DefaultBuild:16312552;16312552;12486056;9914981" MsiKey="AI_CONTROL_VISUAL_STYLE_FLAT"/>
+    <ROW Property="AI_CURRENT_YEAR" Value="2022" ValueLocId="-"/>
+    <ROW Property="AI_EXTERNALUIUNINSTALLERNAME" MultiBuildValue="DefaultBuild:aiui"/>
+    <ROW Property="AI_FINDEXE_TITLE" Value="Select the installation package for [|ProductName]" ValueLocId="AI.Property.FindExeTitle"/>
+    <ROW Property="AI_FrameBtnsColor" Value="metroblack" MultiBuildValue="DefaultBuild:metropurple" MsiKey="AI_FrameBtnsColor"/>
+    <ROW Property="AI_FrameColor" Value="metroblack" MultiBuildValue="DefaultBuild:metropurple" MsiKey="AI_FrameColor"/>
+    <ROW Property="AI_PACKAGING_TOOL" Value="Advanced Installer 20.2 build 2c3f1cf9" ValueLocId="-"/>
+    <ROW Property="AI_PRODUCTNAME_ARP" Value="RumahSakit"/>
+    <ROW Property="AI_ThemeStyle" Value="default" MultiBuildValue="DefaultBuild:metropurple" MsiKey="AI_ThemeStyle"/>
+    <ROW Property="AI_UNINSTALLER" Value="msiexec.exe"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPNOREPAIR" Value="1" MultiBuildValue="DefaultBuild:1"/>
+    <ROW Property="ARPSYSTEMCOMPONENT" Value="1"/>
+    <ROW Property="CurrentJavaProductName" Value="CurrentJavaProductName"/>
+    <ROW Property="Manufacturer" Value="LeoCompany"/>
+    <ROW Property="ProductCode" Value="1033:{3A57D281-B578-44E5-B83B-25356883A9F9} 1057:{3A57D281-B578-44E5-B83B-25356883A9F9} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="RumahSakit"/>
+    <ROW Property="ProductVersion" Value="1.0.0"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
+    <ROW Property="UpgradeCode" Value="{61986D5D-7551-4FD3-A4FF-EE98150C5208}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="Audio_1_Dir" Directory_Parent="src_Dir" DefaultDir="Audio"/>
+    <ROW Directory="Audio_Dir" Directory_Parent="classes_Dir" DefaultDir="Audio"/>
+    <ROW Directory="SDL_Project_QUEUE_Dir" Directory_Parent="APPDIR" DefaultDir="SDL_PR~1|SDL_Project_QUEUE"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="build_Dir" Directory_Parent="SDL_Project_QUEUE_Dir" DefaultDir="build"/>
+    <ROW Directory="classes_Dir" Directory_Parent="build_Dir" DefaultDir="classes"/>
+    <ROW Directory="dist_Dir" Directory_Parent="SDL_Project_QUEUE_Dir" DefaultDir="dist"/>
+    <ROW Directory="iconantrian_1_Dir" Directory_Parent="src_Dir" DefaultDir="ICONAN~1|icon antrian"/>
+    <ROW Directory="iconantrian_Dir" Directory_Parent="classes_Dir" DefaultDir="ICONAN~1|icon antrian"/>
+    <ROW Directory="icondaftar_1_Dir" Directory_Parent="src_Dir" DefaultDir="ICONDA~1|icon daftar"/>
+    <ROW Directory="icondaftar_Dir" Directory_Parent="classes_Dir" DefaultDir="ICONDA~1|icon daftar"/>
+    <ROW Directory="lib_Dir" Directory_Parent="dist_Dir" DefaultDir="lib"/>
+    <ROW Directory="nbproject_Dir" Directory_Parent="SDL_Project_QUEUE_Dir" DefaultDir="NBPROJ~1|nbproject"/>
+    <ROW Directory="private_Dir" Directory_Parent="nbproject_Dir" DefaultDir="private"/>
+    <ROW Directory="src_Dir" Directory_Parent="SDL_Project_QUEUE_Dir" DefaultDir="src"/>
+    <ROW Directory="wav_1_Dir" Directory_Parent="Audio_1_Dir" DefaultDir="wav"/>
+    <ROW Directory="wav_Dir" Directory_Parent="Audio_Dir" DefaultDir="wav"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AI_CustomARPName" ComponentId="{EEBE444A-1035-4D40-9F6E-F73E8D9A3BF1}" Directory_="APPDIR" Attributes="4" KeyPath="DisplayName" Options="1"/>
+    <ROW Component="AI_ExePath" ComponentId="{0E25850B-21C1-446B-9F7F-316A51D40E84}" Directory_="APPDIR" Attributes="4" KeyPath="AI_ExePath"/>
+    <ROW Component="APPDIR" ComponentId="{9A39C6B9-5B2E-47F7-91B6-694FD8DD33E9}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="AbsoluteLayout.jar" ComponentId="{23ABA000-944B-418D-BB76-BB2AAFE7F7AA}" Directory_="lib_Dir" Attributes="0" KeyPath="AbsoluteLayout.jar" Type="0"/>
+    <ROW Component="ConnectDB.class" ComponentId="{D03C8122-FF36-43BA-995E-5B82FC8CC1CE}" Directory_="classes_Dir" Attributes="0" KeyPath="ConnectDB.class" Type="0"/>
+    <ROW Component="ConnectDB.java" ComponentId="{E7F0C9BC-5971-4D6B-84F2-EA4BF5925347}" Directory_="src_Dir" Attributes="0" KeyPath="ConnectDB.java" Type="0"/>
+    <ROW Component="DataBerhasilDitambahkan.wav" ComponentId="{E1E9E793-D982-41E4-9322-B4D4A05057EE}" Directory_="wav_Dir" Attributes="0" KeyPath="DataBerhasilDitambahkan.wav" Type="0"/>
+    <ROW Component="DataBerhasilDitambahkan.wav_1" ComponentId="{5EF1D0FC-F7CA-4AAE-B766-EE59F1D62B53}" Directory_="wav_1_Dir" Attributes="0" KeyPath="DataBerhasilDitambahkan.wav_1" Type="0"/>
+    <ROW Component="ProductInformation" ComponentId="{6351A602-D4F1-4485-8C2E-DCB9008C84DD}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="README.TXT" ComponentId="{58C178D2-F83D-4EA5-90A9-9C923E88BB85}" Directory_="dist_Dir" Attributes="0" KeyPath="README.TXT" Type="0"/>
+    <ROW Component="RumahSakit.exe" ComponentId="{31892BFF-8FA2-4618-BD48-D6716971AC40}" Directory_="APPDIR" Attributes="0" KeyPath="RumahSakit.exe"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{39652FC7-7B3F-4FA0-B9FE-76252E80B0D4}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="build.xml" ComponentId="{7F6EE7A2-1F31-4A4A-9323-27BE4CDA5798}" Directory_="SDL_Project_QUEUE_Dir" Attributes="0" KeyPath="build.xml" Type="0"/>
+    <ROW Component="buildimpl.xml" ComponentId="{F69CFD72-FC83-4BA2-901A-0044EEFC4271}" Directory_="nbproject_Dir" Attributes="0" KeyPath="buildimpl.xml" Type="0"/>
+    <ROW Component="builtjar.properties" ComponentId="{CE5E884B-0A82-4580-9D8C-48474D81851C}" Directory_="build_Dir" Attributes="0" KeyPath="builtjar.properties" Type="0"/>
+    <ROW Component="config.properties" ComponentId="{1D6064FC-CEF6-4D4D-B0D9-5DF004B5F7D3}" Directory_="private_Dir" Attributes="0" KeyPath="config.properties" Type="0"/>
+    <ROW Component="iconambil.png" ComponentId="{DD6726DD-3594-433D-97A6-93270A0A86AE}" Directory_="iconantrian_Dir" Attributes="0" KeyPath="iconambil.png" Type="0"/>
+    <ROW Component="iconambil.png_1" ComponentId="{AEE2EB98-F8A9-4F1E-AB01-50109DC2179A}" Directory_="iconantrian_1_Dir" Attributes="0" KeyPath="iconambil.png_1" Type="0"/>
+    <ROW Component="icons8badge30.png" ComponentId="{30F7BEE5-ED1A-4C4D-A4AA-7530A26763F2}" Directory_="icondaftar_Dir" Attributes="0" KeyPath="icons8badge30.png" Type="0"/>
+    <ROW Component="icons8badge30.png_1" ComponentId="{B7D26608-92FD-4E1B-AEA2-D252CDC72CD5}" Directory_="icondaftar_1_Dir" Attributes="0" KeyPath="icons8badge30.png_1" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="builtjar.properties" Component_="builtjar.properties" FileName="BUILT-~1.PRO|built-jar.properties" Attributes="0" SourcePath="..\build\built-jar.properties" SelfReg="false"/>
+    <ROW File="DataBerhasilDitambahkan.wav" Component_="DataBerhasilDitambahkan.wav" FileName="DATABE~1.WAV|Data Berhasil Ditambahkan.wav" Attributes="0" SourcePath="..\build\classes\Audio\wav\Data Berhasil Ditambahkan.wav" SelfReg="false"/>
+    <ROW File="iniinputsuarauntukprojectSDL.wav" Component_="DataBerhasilDitambahkan.wav" FileName="INIINP~1.WAV|ini input suara untuk project SDL.wav" Attributes="0" SourcePath="..\build\classes\Audio\wav\ini input suara untuk project SDL.wav" SelfReg="false"/>
+    <ROW File="JadwalArsel.wav" Component_="DataBerhasilDitambahkan.wav" FileName="JADWAL~1.WAV|Jadwal Arsel.wav" Attributes="0" SourcePath="..\build\classes\Audio\wav\Jadwal Arsel.wav" SelfReg="false"/>
+    <ROW File="JadwalAxel.wav" Component_="DataBerhasilDitambahkan.wav" FileName="JADWAL~2.WAV|Jadwal Axel.wav" Attributes="0" SourcePath="..\build\classes\Audio\wav\Jadwal Axel.wav" SelfReg="false"/>
+    <ROW File="JadwalBryan.wav" Component_="DataBerhasilDitambahkan.wav" FileName="JADWAL~3.WAV|Jadwal Bryan.wav" Attributes="0" SourcePath="..\build\classes\Audio\wav\Jadwal Bryan.wav" SelfReg="false"/>
+    <ROW File="Jadwaldenata.wav" Component_="DataBerhasilDitambahkan.wav" FileName="JADWAL~4.WAV|Jadwal denata.wav" Attributes="0" SourcePath="..\build\classes\Audio\wav\Jadwal denata.wav" SelfReg="false"/>
+    <ROW File="JadwalFrans.wav" Component_="DataBerhasilDitambahkan.wav" FileName="JADWAL~5.WAV|Jadwal Frans.wav" Attributes="0" SourcePath="..\build\classes\Audio\wav\Jadwal Frans.wav" SelfReg="false"/>
+    <ROW File="NamaBelumDimasukkan.wav" Component_="DataBerhasilDitambahkan.wav" FileName="NAMABE~1.WAV|Nama Belum Dimasukkan.wav" Attributes="0" SourcePath="..\build\classes\Audio\wav\Nama Belum Dimasukkan.wav" SelfReg="false"/>
+    <ROW File="ConnectDB.class" Component_="ConnectDB.class" FileName="CONNEC~1.CLA|ConnectDB.class" Attributes="0" SourcePath="..\build\classes\ConnectDB.class" SelfReg="false"/>
+    <ROW File="DataBase_Hospital.class" Component_="ConnectDB.class" FileName="DATABA~1.CLA|DataBase_Hospital.class" Attributes="0" SourcePath="..\build\classes\DataBase_Hospital.class" SelfReg="false"/>
+    <ROW File="Dokter.class" Component_="ConnectDB.class" FileName="DOKTER~1.CLA|Dokter.class" Attributes="0" SourcePath="..\build\classes\Dokter.class" SelfReg="false"/>
+    <ROW File="dokter.jpg" Component_="ConnectDB.class" FileName="dokter.jpg" Attributes="0" SourcePath="..\build\classes\dokter.jpg" SelfReg="false"/>
+    <ROW File="GUICreateTabel1.class" Component_="ConnectDB.class" FileName="GUICRE~1.CLA|GUICreateTabel$1.class" Attributes="0" SourcePath="..\build\classes\GUICreateTabel$1.class" SelfReg="false"/>
+    <ROW File="GUICreateTabel2.class" Component_="ConnectDB.class" FileName="GUICRE~2.CLA|GUICreateTabel$2.class" Attributes="0" SourcePath="..\build\classes\GUICreateTabel$2.class" SelfReg="false"/>
+    <ROW File="GUICreateTabel3.class" Component_="ConnectDB.class" FileName="GUICRE~3.CLA|GUICreateTabel$3.class" Attributes="0" SourcePath="..\build\classes\GUICreateTabel$3.class" SelfReg="false"/>
+    <ROW File="GUICreateTabel.class" Component_="ConnectDB.class" FileName="GUICRE~4.CLA|GUICreateTabel.class" Attributes="0" SourcePath="..\build\classes\GUICreateTabel.class" SelfReg="false"/>
+    <ROW File="iconambil.png" Component_="iconambil.png" FileName="ICONAM~1.PNG|icon ambil.png" Attributes="0" SourcePath="..\build\classes\icon antrian\icon ambil.png" SelfReg="false"/>
+    <ROW File="iconjadwal.png" Component_="iconambil.png" FileName="ICONJA~1.PNG|icon jadwal.png" Attributes="0" SourcePath="..\build\classes\icon antrian\icon jadwal.png" SelfReg="false"/>
+    <ROW File="iconkembali.png" Component_="iconambil.png" FileName="ICONKE~1.PNG|icon kembali.png" Attributes="0" SourcePath="..\build\classes\icon antrian\icon kembali.png" SelfReg="false"/>
+    <ROW File="iconliatjadwal.png" Component_="iconambil.png" FileName="ICONLI~1.PNG|icon liat jadwal.png" Attributes="0" SourcePath="..\build\classes\icon antrian\icon liat jadwal.png" SelfReg="false"/>
+    <ROW File="iconquota.png" Component_="iconambil.png" FileName="ICONQU~1.PNG|icon quota.png" Attributes="0" SourcePath="..\build\classes\icon antrian\icon quota.png" SelfReg="false"/>
+    <ROW File="icons8badge30.png" Component_="icons8badge30.png" FileName="ICONS8~1.PNG|icons8-badge-30.png" Attributes="0" SourcePath="..\build\classes\icon daftar\icons8-badge-30.png" SelfReg="false"/>
+    <ROW File="icons8birthdaydate30.png" Component_="icons8badge30.png" FileName="ICONS8~2.PNG|icons8-birthday-date-30.png" Attributes="0" SourcePath="..\build\classes\icon daftar\icons8-birthday-date-30.png" SelfReg="false"/>
+    <ROW File="icons8circledenvelope30.png" Component_="icons8badge30.png" FileName="ICONS8~3.PNG|icons8-circled-envelope-30.png" Attributes="0" SourcePath="..\build\classes\icon daftar\icons8-circled-envelope-30.png" SelfReg="false"/>
+    <ROW File="icons8contact30.png" Component_="icons8badge30.png" FileName="ICONS8~4.PNG|icons8-contact-30.png" Attributes="0" SourcePath="..\build\classes\icon daftar\icons8-contact-30.png" SelfReg="false"/>
+    <ROW File="icons8lock30.png" Component_="icons8badge30.png" FileName="ICONS8~5.PNG|icons8-lock-30.png" Attributes="0" SourcePath="..\build\classes\icon daftar\icons8-lock-30.png" SelfReg="false"/>
+    <ROW File="icondaftar.png" Component_="ConnectDB.class" FileName="ICONDA~1.PNG|icon daftar.png" Attributes="0" SourcePath="..\build\classes\icon daftar.png" SelfReg="false"/>
+    <ROW File="icondoctor.png" Component_="ConnectDB.class" FileName="ICONDO~1.PNG|icon doctor.png" Attributes="0" SourcePath="..\build\classes\icon doctor.png" SelfReg="false"/>
+    <ROW File="iconexit.png" Component_="ConnectDB.class" FileName="ICONEX~1.PNG|icon exit.png" Attributes="0" SourcePath="..\build\classes\icon exit.png" SelfReg="false"/>
+    <ROW File="iconinput.png" Component_="ConnectDB.class" FileName="ICONIN~1.PNG|icon input.png" Attributes="0" SourcePath="..\build\classes\icon input.png" SelfReg="false"/>
+    <ROW File="iconJantung.png" Component_="ConnectDB.class" FileName="ICONJA~1.PNG|icon Jantung.png" Attributes="0" SourcePath="..\build\classes\icon Jantung.png" SelfReg="false"/>
+    <ROW File="iconlogin.png" Component_="ConnectDB.class" FileName="ICONLO~1.PNG|icon login.png" Attributes="0" SourcePath="..\build\classes\icon login.png" SelfReg="false"/>
+    <ROW File="iconlogout2.png" Component_="ConnectDB.class" FileName="ICONLO~2.PNG|icon logout 2.png" Attributes="0" SourcePath="..\build\classes\icon logout 2.png" SelfReg="false"/>
+    <ROW File="iconpolispesialis.png" Component_="ConnectDB.class" FileName="ICONPO~1.PNG|icon poli spesialis.png" Attributes="0" SourcePath="..\build\classes\icon poli spesialis.png" SelfReg="false"/>
+    <ROW File="iconpoliumum.png" Component_="ConnectDB.class" FileName="ICONPO~2.PNG|icon poli umum.png" Attributes="0" SourcePath="..\build\classes\icon poli umum.png" SelfReg="false"/>
+    <ROW File="iconpoli.png" Component_="ConnectDB.class" FileName="ICONPO~3.PNG|icon poli.png" Attributes="0" SourcePath="..\build\classes\icon poli.png" SelfReg="false"/>
+    <ROW File="iconspesialis.png" Component_="ConnectDB.class" FileName="ICONSP~1.PNG|icon spesialis.png" Attributes="0" SourcePath="..\build\classes\icon spesialis.png" SelfReg="false"/>
+    <ROW File="icontestkoneksi.png" Component_="ConnectDB.class" FileName="ICONTE~1.PNG|icon test koneksi.png" Attributes="0" SourcePath="..\build\classes\icon test koneksi.png" SelfReg="false"/>
+    <ROW File="iconTHT.png" Component_="ConnectDB.class" FileName="ICONTH~1.PNG|icon THT.png" Attributes="0" SourcePath="..\build\classes\icon THT.png" SelfReg="false"/>
+    <ROW File="icon_langkah1.png" Component_="ConnectDB.class" FileName="ICON_L~1.PNG|icon_langkah1.png" Attributes="0" SourcePath="..\build\classes\icon_langkah1.png" SelfReg="false"/>
+    <ROW File="icon_langkah2.png" Component_="ConnectDB.class" FileName="ICON_L~2.PNG|icon_langkah2.png" Attributes="0" SourcePath="..\build\classes\icon_langkah2.png" SelfReg="false"/>
+    <ROW File="icon_langkah3.png" Component_="ConnectDB.class" FileName="ICON_L~3.PNG|icon_langkah3.png" Attributes="0" SourcePath="..\build\classes\icon_langkah3.png" SelfReg="false"/>
+    <ROW File="img1.jpeg" Component_="ConnectDB.class" FileName="IMG1~1.JPE|img1.jpeg" Attributes="0" SourcePath="..\build\classes\img1.jpeg" SelfReg="false"/>
+    <ROW File="img2.jpg" Component_="ConnectDB.class" FileName="img2.jpg" Attributes="0" SourcePath="..\build\classes\img2.jpg" SelfReg="false"/>
+    <ROW File="img2_1.jpg" Component_="ConnectDB.class" FileName="img2_1.jpg" Attributes="0" SourcePath="..\build\classes\img2_1.jpg" SelfReg="false"/>
+    <ROW File="isiHospital.class" Component_="ConnectDB.class" FileName="ISIHOS~1.CLA|isiHospital.class" Attributes="0" SourcePath="..\build\classes\isiHospital.class" SelfReg="false"/>
+    <ROW File="Jadwal1.class" Component_="ConnectDB.class" FileName="JADWAL~1.CLA|Jadwal$1.class" Attributes="0" SourcePath="..\build\classes\Jadwal$1.class" SelfReg="false"/>
+    <ROW File="Jadwal2.class" Component_="ConnectDB.class" FileName="JADWAL~2.CLA|Jadwal$2.class" Attributes="0" SourcePath="..\build\classes\Jadwal$2.class" SelfReg="false"/>
+    <ROW File="Jadwal3.class" Component_="ConnectDB.class" FileName="JADWAL~3.CLA|Jadwal$3.class" Attributes="0" SourcePath="..\build\classes\Jadwal$3.class" SelfReg="false"/>
+    <ROW File="Jadwal4.class" Component_="ConnectDB.class" FileName="JADWAL~4.CLA|Jadwal$4.class" Attributes="0" SourcePath="..\build\classes\Jadwal$4.class" SelfReg="false"/>
+    <ROW File="Jadwal5.class" Component_="ConnectDB.class" FileName="JADWAL~5.CLA|Jadwal$5.class" Attributes="0" SourcePath="..\build\classes\Jadwal$5.class" SelfReg="false"/>
+    <ROW File="Jadwal6.class" Component_="ConnectDB.class" FileName="JADWAL~6.CLA|Jadwal$6.class" Attributes="0" SourcePath="..\build\classes\Jadwal$6.class" SelfReg="false"/>
+    <ROW File="Jadwal7.class" Component_="ConnectDB.class" FileName="JADWAL~7.CLA|Jadwal$7.class" Attributes="0" SourcePath="..\build\classes\Jadwal$7.class" SelfReg="false"/>
+    <ROW File="Jadwal8.class" Component_="ConnectDB.class" FileName="JADWAL~8.CLA|Jadwal$8.class" Attributes="0" SourcePath="..\build\classes\Jadwal$8.class" SelfReg="false"/>
+    <ROW File="Jadwal.class" Component_="ConnectDB.class" FileName="JADWAL~9.CLA|Jadwal.class" Attributes="0" SourcePath="..\build\classes\Jadwal.class" SelfReg="false"/>
+    <ROW File="ListDokter1.class" Component_="ConnectDB.class" FileName="LISTDO~1.CLA|ListDokter$1.class" Attributes="0" SourcePath="..\build\classes\ListDokter$1.class" SelfReg="false"/>
+    <ROW File="ListDokter2.class" Component_="ConnectDB.class" FileName="LISTDO~2.CLA|ListDokter$2.class" Attributes="0" SourcePath="..\build\classes\ListDokter$2.class" SelfReg="false"/>
+    <ROW File="ListDokter3.class" Component_="ConnectDB.class" FileName="LISTDO~3.CLA|ListDokter$3.class" Attributes="0" SourcePath="..\build\classes\ListDokter$3.class" SelfReg="false"/>
+    <ROW File="ListDokter4.class" Component_="ConnectDB.class" FileName="LISTDO~4.CLA|ListDokter$4.class" Attributes="0" SourcePath="..\build\classes\ListDokter$4.class" SelfReg="false"/>
+    <ROW File="ListDokter5.class" Component_="ConnectDB.class" FileName="LISTDO~5.CLA|ListDokter$5.class" Attributes="0" SourcePath="..\build\classes\ListDokter$5.class" SelfReg="false"/>
+    <ROW File="ListDokter6.class" Component_="ConnectDB.class" FileName="LISTDO~6.CLA|ListDokter$6.class" Attributes="0" SourcePath="..\build\classes\ListDokter$6.class" SelfReg="false"/>
+    <ROW File="ListDokter7.class" Component_="ConnectDB.class" FileName="LISTDO~7.CLA|ListDokter$7.class" Attributes="0" SourcePath="..\build\classes\ListDokter$7.class" SelfReg="false"/>
+    <ROW File="ListDokter.class" Component_="ConnectDB.class" FileName="LISTDO~8.CLA|ListDokter.class" Attributes="0" SourcePath="..\build\classes\ListDokter.class" SelfReg="false"/>
+    <ROW File="RumahSakit_Main1.class" Component_="ConnectDB.class" FileName="RUMAHS~1.CLA|RumahSakit_Main$1.class" Attributes="0" SourcePath="..\build\classes\RumahSakit_Main$1.class" SelfReg="false"/>
+    <ROW File="RumahSakit_Main2.class" Component_="ConnectDB.class" FileName="RUMAHS~2.CLA|RumahSakit_Main$2.class" Attributes="0" SourcePath="..\build\classes\RumahSakit_Main$2.class" SelfReg="false"/>
+    <ROW File="RumahSakit_Main3.class" Component_="ConnectDB.class" FileName="RUMAHS~3.CLA|RumahSakit_Main$3.class" Attributes="0" SourcePath="..\build\classes\RumahSakit_Main$3.class" SelfReg="false"/>
+    <ROW File="RumahSakit_Main4.class" Component_="ConnectDB.class" FileName="RUMAHS~4.CLA|RumahSakit_Main$4.class" Attributes="0" SourcePath="..\build\classes\RumahSakit_Main$4.class" SelfReg="false"/>
+    <ROW File="RumahSakit_Main5.class" Component_="ConnectDB.class" FileName="RUMAHS~5.CLA|RumahSakit_Main$5.class" Attributes="0" SourcePath="..\build\classes\RumahSakit_Main$5.class" SelfReg="false"/>
+    <ROW File="RumahSakit_Main6.class" Component_="ConnectDB.class" FileName="RUMAHS~6.CLA|RumahSakit_Main$6.class" Attributes="0" SourcePath="..\build\classes\RumahSakit_Main$6.class" SelfReg="false"/>
+    <ROW File="RumahSakit_Main.class" Component_="ConnectDB.class" FileName="RUMAHS~7.CLA|RumahSakit_Main.class" Attributes="0" SourcePath="..\build\classes\RumahSakit_Main.class" SelfReg="false"/>
+    <ROW File="build.xml" Component_="build.xml" FileName="build.xml" Attributes="0" SourcePath="..\build.xml" SelfReg="false"/>
+    <ROW File="AbsoluteLayout.jar" Component_="AbsoluteLayout.jar" FileName="ABSOLU~1.JAR|AbsoluteLayout.jar" Attributes="0" SourcePath="lib\AbsoluteLayout.jar" SelfReg="false"/>
+    <ROW File="ojdbc8.jar" Component_="AbsoluteLayout.jar" FileName="ojdbc8.jar" Attributes="0" SourcePath="lib\ojdbc8.jar" SelfReg="false"/>
+    <ROW File="README.TXT" Component_="README.TXT" FileName="README.TXT" Attributes="0" SourcePath="README.TXT" SelfReg="false"/>
+    <ROW File="SDL_Project.jar" Component_="README.TXT" FileName="SDL_PR~1.JAR|SDL_Project.jar" Attributes="0" SourcePath="SDL_Project.jar" SelfReg="false"/>
+    <ROW File="manifest.mf" Component_="build.xml" FileName="manifest.mf" Attributes="0" SourcePath="..\manifest.mf" SelfReg="false"/>
+    <ROW File="buildimpl.xml" Component_="buildimpl.xml" FileName="BUILD-~1.XML|build-impl.xml" Attributes="0" SourcePath="..\nbproject\build-impl.xml" SelfReg="false"/>
+    <ROW File="genfiles.properties" Component_="buildimpl.xml" FileName="GENFIL~1.PRO|genfiles.properties" Attributes="0" SourcePath="..\nbproject\genfiles.properties" SelfReg="false"/>
+    <ROW File="config.properties" Component_="config.properties" FileName="CONFIG~1.PRO|config.properties" Attributes="0" SourcePath="..\nbproject\private\config.properties" SelfReg="false"/>
+    <ROW File="private.properties" Component_="config.properties" FileName="PRIVAT~1.PRO|private.properties" Attributes="0" SourcePath="..\nbproject\private\private.properties" SelfReg="false"/>
+    <ROW File="private.xml" Component_="config.properties" FileName="private.xml" Attributes="0" SourcePath="..\nbproject\private\private.xml" SelfReg="false"/>
+    <ROW File="project.properties" Component_="buildimpl.xml" FileName="PROJEC~1.PRO|project.properties" Attributes="0" SourcePath="..\nbproject\project.properties" SelfReg="false"/>
+    <ROW File="project.xml" Component_="buildimpl.xml" FileName="project.xml" Attributes="0" SourcePath="..\nbproject\project.xml" SelfReg="false"/>
+    <ROW File="DataBerhasilDitambahkan.wav_1" Component_="DataBerhasilDitambahkan.wav_1" FileName="DATABE~1.WAV|Data Berhasil Ditambahkan.wav" Attributes="0" SourcePath="..\src\Audio\wav\Data Berhasil Ditambahkan.wav" SelfReg="false"/>
+    <ROW File="iniinputsuarauntukprojectSDL.wav_1" Component_="DataBerhasilDitambahkan.wav_1" FileName="INIINP~1.WAV|ini input suara untuk project SDL.wav" Attributes="0" SourcePath="..\src\Audio\wav\ini input suara untuk project SDL.wav" SelfReg="false"/>
+    <ROW File="JadwalArsel.wav_1" Component_="DataBerhasilDitambahkan.wav_1" FileName="JADWAL~1.WAV|Jadwal Arsel.wav" Attributes="0" SourcePath="..\src\Audio\wav\Jadwal Arsel.wav" SelfReg="false"/>
+    <ROW File="JadwalAxel.wav_1" Component_="DataBerhasilDitambahkan.wav_1" FileName="JADWAL~2.WAV|Jadwal Axel.wav" Attributes="0" SourcePath="..\src\Audio\wav\Jadwal Axel.wav" SelfReg="false"/>
+    <ROW File="JadwalBryan.wav_1" Component_="DataBerhasilDitambahkan.wav_1" FileName="JADWAL~3.WAV|Jadwal Bryan.wav" Attributes="0" SourcePath="..\src\Audio\wav\Jadwal Bryan.wav" SelfReg="false"/>
+    <ROW File="Jadwaldenata.wav_1" Component_="DataBerhasilDitambahkan.wav_1" FileName="JADWAL~4.WAV|Jadwal denata.wav" Attributes="0" SourcePath="..\src\Audio\wav\Jadwal denata.wav" SelfReg="false"/>
+    <ROW File="JadwalFrans.wav_1" Component_="DataBerhasilDitambahkan.wav_1" FileName="JADWAL~5.WAV|Jadwal Frans.wav" Attributes="0" SourcePath="..\src\Audio\wav\Jadwal Frans.wav" SelfReg="false"/>
+    <ROW File="NamaBelumDimasukkan.wav_1" Component_="DataBerhasilDitambahkan.wav_1" FileName="NAMABE~1.WAV|Nama Belum Dimasukkan.wav" Attributes="0" SourcePath="..\src\Audio\wav\Nama Belum Dimasukkan.wav" SelfReg="false"/>
+    <ROW File="ConnectDB.java" Component_="ConnectDB.java" FileName="CONNEC~1.JAV|ConnectDB.java" Attributes="0" SourcePath="..\src\ConnectDB.java" SelfReg="false"/>
+    <ROW File="DataBase_Hospital.java" Component_="ConnectDB.java" FileName="DATABA~1.JAV|DataBase_Hospital.java" Attributes="0" SourcePath="..\src\DataBase_Hospital.java" SelfReg="false"/>
+    <ROW File="Dokter.java" Component_="ConnectDB.java" FileName="DOKTER~1.JAV|Dokter.java" Attributes="0" SourcePath="..\src\Dokter.java" SelfReg="false"/>
+    <ROW File="dokter.jpg_1" Component_="ConnectDB.java" FileName="dokter.jpg" Attributes="0" SourcePath="..\src\dokter.jpg" SelfReg="false"/>
+    <ROW File="GUICreateTabel.form" Component_="ConnectDB.java" FileName="GUICRE~1.FOR|GUICreateTabel.form" Attributes="0" SourcePath="..\src\GUICreateTabel.form" SelfReg="false"/>
+    <ROW File="GUICreateTabel.java" Component_="ConnectDB.java" FileName="GUICRE~1.JAV|GUICreateTabel.java" Attributes="0" SourcePath="..\src\GUICreateTabel.java" SelfReg="false"/>
+    <ROW File="iconambil.png_1" Component_="iconambil.png_1" FileName="ICONAM~1.PNG|icon ambil.png" Attributes="0" SourcePath="..\src\icon antrian\icon ambil.png" SelfReg="false"/>
+    <ROW File="iconjadwal.png_1" Component_="iconambil.png_1" FileName="ICONJA~1.PNG|icon jadwal.png" Attributes="0" SourcePath="..\src\icon antrian\icon jadwal.png" SelfReg="false"/>
+    <ROW File="iconkembali.png_1" Component_="iconambil.png_1" FileName="ICONKE~1.PNG|icon kembali.png" Attributes="0" SourcePath="..\src\icon antrian\icon kembali.png" SelfReg="false"/>
+    <ROW File="iconliatjadwal.png_1" Component_="iconambil.png_1" FileName="ICONLI~1.PNG|icon liat jadwal.png" Attributes="0" SourcePath="..\src\icon antrian\icon liat jadwal.png" SelfReg="false"/>
+    <ROW File="iconquota.png_1" Component_="iconambil.png_1" FileName="ICONQU~1.PNG|icon quota.png" Attributes="0" SourcePath="..\src\icon antrian\icon quota.png" SelfReg="false"/>
+    <ROW File="icons8badge30.png_1" Component_="icons8badge30.png_1" FileName="ICONS8~1.PNG|icons8-badge-30.png" Attributes="0" SourcePath="..\src\icon daftar\icons8-badge-30.png" SelfReg="false"/>
+    <ROW File="icons8birthdaydate30.png_1" Component_="icons8badge30.png_1" FileName="ICONS8~2.PNG|icons8-birthday-date-30.png" Attributes="0" SourcePath="..\src\icon daftar\icons8-birthday-date-30.png" SelfReg="false"/>
+    <ROW File="icons8circledenvelope30.png_1" Component_="icons8badge30.png_1" FileName="ICONS8~3.PNG|icons8-circled-envelope-30.png" Attributes="0" SourcePath="..\src\icon daftar\icons8-circled-envelope-30.png" SelfReg="false"/>
+    <ROW File="icons8contact30.png_1" Component_="icons8badge30.png_1" FileName="ICONS8~4.PNG|icons8-contact-30.png" Attributes="0" SourcePath="..\src\icon daftar\icons8-contact-30.png" SelfReg="false"/>
+    <ROW File="icons8lock30.png_1" Component_="icons8badge30.png_1" FileName="ICONS8~5.PNG|icons8-lock-30.png" Attributes="0" SourcePath="..\src\icon daftar\icons8-lock-30.png" SelfReg="false"/>
+    <ROW File="icondaftar.png_1" Component_="ConnectDB.java" FileName="ICONDA~1.PNG|icon daftar.png" Attributes="0" SourcePath="..\src\icon daftar.png" SelfReg="false"/>
+    <ROW File="icondoctor.png_1" Component_="ConnectDB.java" FileName="ICONDO~1.PNG|icon doctor.png" Attributes="0" SourcePath="..\src\icon doctor.png" SelfReg="false"/>
+    <ROW File="iconexit.png_1" Component_="ConnectDB.java" FileName="ICONEX~1.PNG|icon exit.png" Attributes="0" SourcePath="..\src\icon exit.png" SelfReg="false"/>
+    <ROW File="iconinput.png_1" Component_="ConnectDB.java" FileName="ICONIN~1.PNG|icon input.png" Attributes="0" SourcePath="..\src\icon input.png" SelfReg="false"/>
+    <ROW File="iconJantung.png_1" Component_="ConnectDB.java" FileName="ICONJA~1.PNG|icon Jantung.png" Attributes="0" SourcePath="..\src\icon Jantung.png" SelfReg="false"/>
+    <ROW File="iconlogin.png_1" Component_="ConnectDB.java" FileName="ICONLO~1.PNG|icon login.png" Attributes="0" SourcePath="..\src\icon login.png" SelfReg="false"/>
+    <ROW File="iconlogout2.png_1" Component_="ConnectDB.java" FileName="ICONLO~2.PNG|icon logout 2.png" Attributes="0" SourcePath="..\src\icon logout 2.png" SelfReg="false"/>
+    <ROW File="iconpolispesialis.png_1" Component_="ConnectDB.java" FileName="ICONPO~1.PNG|icon poli spesialis.png" Attributes="0" SourcePath="..\src\icon poli spesialis.png" SelfReg="false"/>
+    <ROW File="iconpoliumum.png_1" Component_="ConnectDB.java" FileName="ICONPO~2.PNG|icon poli umum.png" Attributes="0" SourcePath="..\src\icon poli umum.png" SelfReg="false"/>
+    <ROW File="iconpoli.png_1" Component_="ConnectDB.java" FileName="ICONPO~3.PNG|icon poli.png" Attributes="0" SourcePath="..\src\icon poli.png" SelfReg="false"/>
+    <ROW File="iconspesialis.png_1" Component_="ConnectDB.java" FileName="ICONSP~1.PNG|icon spesialis.png" Attributes="0" SourcePath="..\src\icon spesialis.png" SelfReg="false"/>
+    <ROW File="icontestkoneksi.png_1" Component_="ConnectDB.java" FileName="ICONTE~1.PNG|icon test koneksi.png" Attributes="0" SourcePath="..\src\icon test koneksi.png" SelfReg="false"/>
+    <ROW File="iconTHT.png_1" Component_="ConnectDB.java" FileName="ICONTH~1.PNG|icon THT.png" Attributes="0" SourcePath="..\src\icon THT.png" SelfReg="false"/>
+    <ROW File="icon_langkah1.png_1" Component_="ConnectDB.java" FileName="ICON_L~1.PNG|icon_langkah1.png" Attributes="0" SourcePath="..\src\icon_langkah1.png" SelfReg="false"/>
+    <ROW File="icon_langkah2.png_1" Component_="ConnectDB.java" FileName="ICON_L~2.PNG|icon_langkah2.png" Attributes="0" SourcePath="..\src\icon_langkah2.png" SelfReg="false"/>
+    <ROW File="icon_langkah3.png_1" Component_="ConnectDB.java" FileName="ICON_L~3.PNG|icon_langkah3.png" Attributes="0" SourcePath="..\src\icon_langkah3.png" SelfReg="false"/>
+    <ROW File="img1.jpeg_1" Component_="ConnectDB.java" FileName="IMG1~1.JPE|img1.jpeg" Attributes="0" SourcePath="..\src\img1.jpeg" SelfReg="false"/>
+    <ROW File="img2.jpg_1" Component_="ConnectDB.java" FileName="img2.jpg" Attributes="0" SourcePath="..\src\img2.jpg" SelfReg="false"/>
+    <ROW File="img2_1.jpg_1" Component_="ConnectDB.java" FileName="img2_1.jpg" Attributes="0" SourcePath="..\src\img2_1.jpg" SelfReg="false"/>
+    <ROW File="isiHospital.java" Component_="ConnectDB.java" FileName="ISIHOS~1.JAV|isiHospital.java" Attributes="0" SourcePath="..\src\isiHospital.java" SelfReg="false"/>
+    <ROW File="Jadwal.form" Component_="ConnectDB.java" FileName="JADWAL~1.FOR|Jadwal.form" Attributes="0" SourcePath="..\src\Jadwal.form" SelfReg="false"/>
+    <ROW File="Jadwal.java" Component_="ConnectDB.java" FileName="JADWAL~1.JAV|Jadwal.java" Attributes="0" SourcePath="..\src\Jadwal.java" SelfReg="false"/>
+    <ROW File="ListDokter.form" Component_="ConnectDB.java" FileName="LISTDO~1.FOR|ListDokter.form" Attributes="0" SourcePath="..\src\ListDokter.form" SelfReg="false"/>
+    <ROW File="ListDokter.java" Component_="ConnectDB.java" FileName="LISTDO~1.JAV|ListDokter.java" Attributes="0" SourcePath="..\src\ListDokter.java" SelfReg="false"/>
+    <ROW File="RumahSakit_Main.form" Component_="ConnectDB.java" FileName="RUMAHS~1.FOR|RumahSakit_Main.form" Attributes="0" SourcePath="..\src\RumahSakit_Main.form" SelfReg="false"/>
+    <ROW File="RumahSakit_Main.java" Component_="ConnectDB.java" FileName="RUMAHS~1.JAV|RumahSakit_Main.java" Attributes="0" SourcePath="..\src\RumahSakit_Main.java" SelfReg="false"/>
+    <ROW File="RumahSakit.exe" Component_="RumahSakit.exe" FileName="RUMAHS~1.EXE|RumahSakit.exe" Attributes="0" SourcePath="&lt;AI_STUBS&gt;aijclw.exe" SelfReg="false" DigSign="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en;id" LangOpt="2" InstallationType="4" CabsLocation="1" PackageType="1" FilesInsideExe="true" ExtractionFolder="[AppDataFolder][|Manufacturer]\[|ProductName] [|ProductVersion]\install" ExtUI="true" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_id.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="InstallDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\InstallDlg.aip"/>
+    <ROW Fragment="LicenseAgreementDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\LicenseAgreementDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;surface\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;surface\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\VerifyRepairDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiActionTextComponent">
+    <ROW Action="AI_DeleteLzma" Description="Deleting files extracted from archive" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_DeleteRLzma" Description="Deleting files extracted from archive" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractFiles" Description="Extracting files from archive" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractLzma" Description="Extracting files from archive" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAppSearchComponent">
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_LM" Builds="DefaultBuild"/>
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_CU" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="ExternalUICleaner.dll" SourcePath="&lt;AI_CUSTACTS&gt;ExternalUICleaner.dll"/>
+    <ROW Name="Prereq.dll" SourcePath="&lt;AI_CUSTACTS&gt;Prereq.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="lzmaextractor.dll" SourcePath="&lt;AI_CUSTACTS&gt;lzmaextractor.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="CustomizeDlg" Control="CustomizeDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+    <ROW Dialog_="MsiRMFilesInUse" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="100" MsiKey="MsiRMFilesInUse#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="PatchWelcomeDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="ProductNameTitle" Type="Text" X="83" Y="21" Width="250" Height="80" Attributes="196611" Text="[ProductName]" TextStyle="[ProductNameForSplash]" Order="600" TextLocId="Metro.Control.Text.ProductName" MsiKey="PatchWelcomeDlg#ProductNameTitle"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="CompanyText" Type="Text" X="83" Y="16" Width="191" Height="12" Attributes="196611" Text="[Manufacturer]" TextStyle="[ManufacturerFont]" Order="700" TextLocId="Metro.Control.Text.Manufacturer" MsiKey="PatchWelcomeDlg#CompanyText"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="ProductLogo" Type="Bitmap" X="17" Y="5" Width="59" Height="63" Attributes="1" Text="[AppLogoIcon]" Order="800" MsiKey="PatchWelcomeDlg#ProductLogo"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="100" MsiKey="VerifyReadyDlg#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Back" Type="PushButton" X="5" Y="381" Width="11" Height="11" Attributes="2" Text="Control.Text.VerifyReadyDlg#Back" Help="Back|" Order="200" TextLocId="Control.Text.VerifyReadyDlg#Back" HelpLocId="Air.Control.Help#Back" MsiKey="VerifyReadyDlg#Back" Options="1" ExtType="PushButton" ExtData="[ButtonText_Back]" ExtDataLocId="-"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="ReadyToInstall" Type="Text" X="17" Y="105" Width="312" Height="19" Attributes="196611" Text="Ready to Install" TextStyle="[SubTitleStyle]" Order="400" TextLocId="Control.Text.VerifyReadyDlg#Title" MsiKey="VerifyReadyDlg#ReadyToInstall"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Text_2" Type="Text" X="17" Y="139" Width="312" Height="100" Attributes="65539" Text="The [Wizard] is ready to begin the [ProductName] installation" Order="500" TextLocId="Control.Text.VerifyReadyDlg#Description" MsiKey="VerifyReadyDlg#Text_2"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="InstallButton" Type="ImageButton" X="251" Y="359" Width="78" Height="28" Attributes="3" Text="[metrobuttonimage]" TextStyle="[MetroButtonText]" Order="600" MsiKey="VerifyReadyDlg#InstallButton" ExtType="ImageButton" ExtData="INSTALL" ExtDataLocId="Metro.Control.ExtData.VerifyReadyDlg#InstallButton"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="ProductNameTitle" Type="Text" X="83" Y="21" Width="250" Height="80" Attributes="196611" Text="[ProductName]" TextStyle="[ProductNameForSplash]" Order="700" TextLocId="Metro.Control.Text.ProductName" MsiKey="VerifyReadyDlg#ProductNameTitle"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="CompanyText" Type="Text" X="83" Y="16" Width="191" Height="12" Attributes="196611" Text="[Manufacturer]" TextStyle="[ManufacturerFont]" Order="800" TextLocId="Metro.Control.Text.Manufacturer" MsiKey="VerifyReadyDlg#CompanyText"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="ProductLogo" Type="Bitmap" X="17" Y="5" Width="59" Height="63" Attributes="1" Text="[AppLogoIcon]" Order="900" MsiKey="VerifyReadyDlg#ProductLogo"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="AdvInst" Type="Text" X="5" Y="388" Width="74" Height="11" Attributes="196611" Text="Advanced Installer" TextStyle="[BrandingStyle]" Order="1000" MsiKey="VerifyReadyDlg#AdvInst"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="100" MsiKey="VerifyRemoveDlg#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="345" Height="400" Attributes="1" Text="[Background]" Order="100" MsiKey="VerifyRepairDlg#Bitmap"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="200" MsiKey="VerifyRepairDlg#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="InstallDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="301"/>
+    <ROW Dialog_="InstallDlg" Control_="YouMustAgreeCtrl" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="301"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Event="NewDialog" Argument="InstallDlg" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="101"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="699"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="199" Options="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="699"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Modify" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="99"/>
+    <ROW Dialog_="InstallDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_INSTALL AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="302" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_INSTALL AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="303" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_INSTALL AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="304" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="InstallDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_INSTALL" Ordering="101" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="InstallDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_INSTALL" Ordering="102" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="InstallDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_INSTALL" Ordering="103" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="InstallDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_INSTALL" Ordering="104" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="YouMustAgreeCtrl" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_INSTALL" Ordering="302" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="YouMustAgreeCtrl" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_INSTALL" Ordering="303" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_INSTALL" Ordering="0" Options="2"/>
+    <ROW Dialog_="InstallDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_INSTALL" Ordering="1" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_INSTALL AND AiLicenseAgreement AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="102" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_INSTALL AND AiLicenseAgreement AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="103" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_INSTALL AND AiLicenseAgreement AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="104" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="LicenseAgreementDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="101" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="LicenseAgreementDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="102" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="LicenseAgreementDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="103" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="LicenseAgreementDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="104" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="2" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="3" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Modify" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_MAINT AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="102" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Modify" Event="EnableRollback" Argument="False" Condition="AI_MAINT AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="103" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Modify" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_MAINT AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="104" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="CustomizeDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_MAINT" Ordering="0" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="CustomizeDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_MAINT" Ordering="1" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="CustomizeDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_MAINT" Ordering="2" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="CustomizeDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_MAINT" Ordering="3" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_MAINT" Ordering="2" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_MAINT" Ordering="3" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_PATCH AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="202" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_PATCH AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="203" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_PATCH AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="204" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_PATCH" Ordering="0" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_PATCH" Ordering="1" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_PATCH" Ordering="2" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_PATCH" Ordering="3" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_PATCH" Ordering="0" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_PATCH" Ordering="1" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH_ORIGINAL" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DATA_SETTER" Type="51" Source="CustomActionData" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DeleteCadLzma" Type="51" Source="AI_DeleteLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteLzma" Type="1025" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DeleteRCadLzma" Type="51" Source="AI_DeleteRLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteRLzma" Type="1281" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DoRemoveExternalUIStub" Type="3585" Source="ExternalUICleaner.dll" Target="DoRemoveExternalUIStub" WithoutSeq="true"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_ExtractCadLzma" Type="51" Source="AI_ExtractLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_ExtractFiles" Type="1" Source="Prereq.dll" Target="ExtractSourceFiles" AdditionalSeq="AI_DATA_SETTER"/>
+    <ROW Action="AI_ExtractLzma" Type="1025" Source="lzmaextractor.dll" Target="ExtractLZMAFiles"/>
+    <ROW Action="AI_FindExeLzma" Type="1" Source="lzmaextractor.dll" Target="FindEXE"/>
+    <ROW Action="AI_GetArpIconPath" Type="1" Source="aicustact.dll" Target="GetArpIconPath"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH" Target="[AI_SETUPEXEPATH_ORIGINAL]"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_RemoveExternalUIStub" Type="1" Source="ExternalUICleaner.dll" Target="RemoveExternalUIStub"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_RunFinishActions" Type="1" Source="aicustact.dll" Target="RunFinishActions" WithoutSeq="true"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="AI_ExePath"/>
+    <ROW Feature_="MainFeature" Component_="builtjar.properties"/>
+    <ROW Feature_="MainFeature" Component_="DataBerhasilDitambahkan.wav"/>
+    <ROW Feature_="MainFeature" Component_="ConnectDB.class"/>
+    <ROW Feature_="MainFeature" Component_="iconambil.png"/>
+    <ROW Feature_="MainFeature" Component_="icons8badge30.png"/>
+    <ROW Feature_="MainFeature" Component_="build.xml"/>
+    <ROW Feature_="MainFeature" Component_="AbsoluteLayout.jar"/>
+    <ROW Feature_="MainFeature" Component_="README.TXT"/>
+    <ROW Feature_="MainFeature" Component_="buildimpl.xml"/>
+    <ROW Feature_="MainFeature" Component_="config.properties"/>
+    <ROW Feature_="MainFeature" Component_="DataBerhasilDitambahkan.wav_1"/>
+    <ROW Feature_="MainFeature" Component_="ConnectDB.java"/>
+    <ROW Feature_="MainFeature" Component_="iconambil.png_1"/>
+    <ROW Feature_="MainFeature" Component_="icons8badge30.png_1"/>
+    <ROW Feature_="MainFeature" Component_="RumahSakit.exe"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+    <ROW Feature_="MainFeature" Component_="AI_CustomARPName"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIniFileComponent">
+    <ROW IniFile="ApplicationType" FileName="RUMAHS~1.INI|RumahSakit.ini" DirProperty="APPDIR" Section="Application" Key="Application Type" Value="gui" Action="0" Component_="RumahSakit.exe"/>
+    <ROW IniFile="ClassPath" FileName="RUMAHS~1.INI|RumahSakit.ini" DirProperty="APPDIR" Section="Class Path" Key="Class Path" Value="[#SDL_Project.jar];" Action="0" Component_="RumahSakit.exe"/>
+    <ROW IniFile="FailureCheck" FileName="RUMAHS~1.INI|RumahSakit.ini" DirProperty="APPDIR" Section="Application" Key="Failure Check" Value="yes" Action="0" Component_="RumahSakit.exe"/>
+    <ROW IniFile="MainClass" FileName="RUMAHS~1.INI|RumahSakit.ini" DirProperty="APPDIR" Section="Java Runtime Environment" Key="Main Class" Value="RumahSakit_Main" Action="0" Component_="RumahSakit.exe"/>
+    <ROW IniFile="MaximumVersion" FileName="RUMAHS~1.INI|RumahSakit.ini" DirProperty="APPDIR" Section="Java Runtime Environment" Key="Maximum Version" Value="any" Action="0" Component_="RumahSakit.exe"/>
+    <ROW IniFile="MinimumVersion" FileName="RUMAHS~1.INI|RumahSakit.ini" DirProperty="APPDIR" Section="Java Runtime Environment" Key="Minimum Version" Value="any" Action="0" Component_="RumahSakit.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1502"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1397"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99" Builds="DefaultBuild"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="101" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="199" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="198" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="197" Builds="DefaultBuild"/>
+    <ROW Action="AI_FindExeLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="196" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1549" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1548" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="6599" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractFiles" Sequence="1399" Builds="DefaultBuild"/>
+    <ROW Action="AI_DATA_SETTER" Sequence="1398"/>
+    <ROW Action="AI_GetArpIconPath" Sequence="1401"/>
+    <ROW Action="AI_RemoveExternalUIStub" Condition="(REMOVE=&quot;ALL&quot;) AND ((VersionNT &gt; 500) OR((VersionNT = 500) AND (ServicePackLevel &gt;= 4)))" Sequence="1501"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="InstallDlg" Condition="AI_INSTALL" Sequence="1230" SeqType="3" MsiKey="WelcomeDlg"/>
+    <ROW Action="MaintenanceTypeDlg" Condition="AI_MAINT" Sequence="1250" SeqType="3" MsiKey="MaintenanceTypeDlg"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiJavaComponent">
+    <ROW Name="RumahSakit.exe" Launcher="RumahSakit.exe" MainClass="MainClass" ClassPath="ClassPath" JREMin="MinimumVersion" JREMax="MaximumVersion" AppType="ApplicationType" PlusList="APPDIR;" MinusList="#RumahSakit.exe;" MacDescription="[|CurrentJavaProductName] [|ProductVersion] © [|Manufacturer], Inc, 2022" MacBundleId="com.[|Manufacturer].[|ProductName].[|CurrentJavaProductName]" FailureCheck="FailureCheck" UACExecutionLevel="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="SETUPEXEDIR OR (REMOVE=&quot;ALL&quot;)" Description="This package can only be run from a bootstrapper." DescriptionLocId="AI.LaunchCondition.RequireBootstrapper" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegLocatorComponent">
+    <ROW Signature_="AI_EXE_PATH_CU" Root="1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+    <ROW Signature_="AI_EXE_PATH_LM" Root="2" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="AI_ExePath" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Value="[AI_SETUPEXEPATH]" Component_="AI_ExePath"/>
+    <ROW Registry="AdvancedInstaller" Root="-1" Key="Software\Caphyon\Advanced Installer" Name="\"/>
+    <ROW Registry="Caphyon" Root="-1" Key="Software\Caphyon" Name="\"/>
+    <ROW Registry="Comments" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Comments" Value="[ARPCOMMENTS]" Component_="AI_CustomARPName"/>
+    <ROW Registry="Contact" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Contact" Value="[ARPCONTACT]" Component_="AI_CustomARPName"/>
+    <ROW Registry="CurrentVersion" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion" Name="\"/>
+    <ROW Registry="DisplayIcon" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="DisplayIcon" Value="[ARP_ICON_PATH]" Component_="AI_CustomARPName"/>
+    <ROW Registry="DisplayName" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="DisplayName" Value="[AI_PRODUCTNAME_ARP]" Component_="AI_CustomARPName"/>
+    <ROW Registry="DisplayVersion" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="DisplayVersion" Value="[ProductVersion]" Component_="AI_CustomARPName"/>
+    <ROW Registry="EstimatedSize" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="EstimatedSize" Value="#[AI_ARP_SIZE]" Component_="AI_CustomARPName" VirtualValue="#"/>
+    <ROW Registry="HelpLink" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="HelpLink" Value="[ARPHELPLINK]" Component_="AI_CustomARPName"/>
+    <ROW Registry="HelpTelephone" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="HelpTelephone" Value="[ARPHELPTELEPHONE]" Component_="AI_CustomARPName"/>
+    <ROW Registry="InstallLocation" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="InstallLocation" Value="[APPDIR]" Component_="AI_CustomARPName"/>
+    <ROW Registry="LZMA" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA" Name="\"/>
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Microsoft" Root="-1" Key="Software\Microsoft" Name="\"/>
+    <ROW Registry="ModifyPath" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="ModifyPath" Value="[AI_UNINSTALLER] /i [ProductCode] AI_UNINSTALLER_CTP=1" Component_="AI_CustomARPName"/>
+    <ROW Registry="NoRepair" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="NoRepair" Value="#1" Component_="AI_CustomARPName" VirtualValue="#"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductCode" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]" Name="\"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="ProductNameProductVersion" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="\"/>
+    <ROW Registry="ProductVersion" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="\"/>
+    <ROW Registry="Publisher" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Publisher" Value="[Manufacturer]" Component_="AI_CustomARPName"/>
+    <ROW Registry="Readme" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Readme" Value="[ARPREADME]" Component_="AI_CustomARPName"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="URLInfoAbout" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="URLInfoAbout" Value="[ARPURLINFOABOUT]" Component_="AI_CustomARPName"/>
+    <ROW Registry="URLUpdateInfo" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="URLUpdateInfo" Value="[ARPURLUPDATEINFO]" Component_="AI_CustomARPName"/>
+    <ROW Registry="Uninstall" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall" Name="\"/>
+    <ROW Registry="UninstallPath" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="UninstallPath" Value="[AI_UNINSTALLER] /x [ProductCode] AI_UNINSTALLER_CTP=1" Component_="AI_CustomARPName"/>
+    <ROW Registry="UninstallString" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="UninstallString" Value="[AI_UNINSTALLER] /x [ProductCode] AI_UNINSTALLER_CTP=1" Component_="AI_CustomARPName"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+    <ROW Registry="VersionMajor" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="VersionMajor" Value="#1" Component_="AI_CustomARPName" VirtualValue="#"/>
+    <ROW Registry="VersionMinor" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="VersionMinor" Value="#0" Component_="AI_CustomARPName" VirtualValue="#"/>
+    <ROW Registry="Windows" Root="-1" Key="Software\Microsoft\Windows" Name="\"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="RumahSakit" Directory_="SHORTCUTDIR" Name="RUMAHS~1|RumahSakit" Component_="RumahSakit.exe" Target="[#RumahSakit.exe]" Description="[|CurrentJavaProductName] [|ProductVersion] © [|Manufacturer], Inc, 2022" Hotkey="0" IconIndex="0" ShowCmd="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiTextStyleComponent">
+    <ROW TextStyle="BrandingStyle" FaceName="Segoe UI" Size="8" Color="2171376" MultiBuildColor="DefaultBuild:15395562" StyleBits="0" MsiKey="BrandingStyle"/>
+    <ROW TextStyle="DlgFont8" FaceName="Segoe UI" Size="11" Color="14079702" MultiBuildColor="DefaultBuild:4473924" StyleBits="0" MsiKey="DlgFont8"/>
+    <ROW TextStyle="ImageButton" FaceName="Segoe UI" Size="11" Color="14079702" MultiBuildColor="DefaultBuild:16777215" StyleBits="1" MsiKey="ImageButton"/>
+    <ROW TextStyle="InputCtrlFont" FaceName="Segoe UI" Size="8" Color="16777215" MultiBuildColor="DefaultBuild:8289918" StyleBits="0" MsiKey="InputCtrlFont"/>
+    <ROW TextStyle="Manufacturer" FaceName="Verdana" Size="10" Color="16777215" MultiBuildColor="DefaultBuild:15181261" StyleBits="0" MsiKey="Manufacturer"/>
+    <ROW TextStyle="MetroInstallButton" FaceName="Segoe UI" Size="22" Color="14079702" MultiBuildColor="DefaultBuild:16777215" StyleBits="0" MsiKey="MetroInstallButton"/>
+    <ROW TextStyle="SubTitle" FaceName="Segoe UI" Size="14" Color="14079702" MultiBuildColor="DefaultBuild:8289918" StyleBits="0" MsiKey="SubTitle"/>
+    <ROW TextStyle="SubnoteFont" FaceName="Segoe UI" Size="8" Color="9671571" MultiBuildColor="DefaultBuild:14079702" StyleBits="0" MsiKey="SubnoteFont"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="surface"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
